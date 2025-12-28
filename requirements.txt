@@ -1,5 +1,11 @@
 streamlit>=1.30
+
+# Core ML stack (COMPATIBLE)
+numpy<2.0
+pandas>=1.5,<2.2
 scikit-learn==1.2.2
 joblib>=1.2
-numpy>=1.24
-pandas>=2.0
+
+# Build helpers (important on cloud)
+setuptools
+wheel
